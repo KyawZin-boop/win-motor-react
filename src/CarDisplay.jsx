@@ -27,18 +27,18 @@ export default function CarDisplay() {
                                     <div key={`${spec.name}-${j}`} className="card shadow">
                                         <div className="card-body">
                                         <h5 className="card-title mb-1">{spec.name}</h5>
-                                            <div className="d-flex justify-content-between" style={{color: "#F4F5F6"}}>
+                                            <div className="d-flex justify-content-between" style={{color: "var(--primary-color)"}}>
                                             <p className="card-text mb-1">SUV</p>
                                             <p className="card-text">{spec.year}</p>
                                             </div>
                                             <img src={spec.image} alt={`${spec.name} car`} />
-                                            <div className="d-flex justify-content-between mt-2" style={{color: "#F4F5F6", fontSize: "14px"}}>
+                                            <div className="d-flex justify-content-between mt-2" style={{color: "var(--primary-color)", fontSize: "14px"}}>
                                             <p><i className="fa-solid fa-gas-pump me-2"></i>80L</p>
                                             <p><i className="fa-solid fa-gear me-2"></i>Manual</p>
                                             <p><i className="fa-solid fa-user-group me-2"></i>2 pepople</p>
                                             </div>
                                             <div className="d-flex justify-content-between">
-                                            <p className="card-text mb-0">{spec.price}</p>
+                                            <p className="card-text mb-0">$ {spec.price}</p>
                                             <a href="#" className="nav-link view-details">View Details<i className="fa-solid fa-arrow-right-long" style={{ transform: 'rotate(-45deg)'}}></i></a>
                                             </div>
                                         </div>

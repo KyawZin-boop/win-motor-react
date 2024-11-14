@@ -4,18 +4,18 @@ export default function Footer() {
         <div className="footer">
             <div className="footerDiv p-4">
                 <div className="contact text-white">
-                <h3 className="mb-4">Contact Us</h3>
+                <h3 className="mb-4" style={{color: "#ffeb3b"}}>Contact Us</h3>
                 <p className="fs-4" style={{color: "var(--primary-color)"}}>
                     Win Motor Myanamr Company Limited
                 </p>
-                <p style={{color: "#ffeb3b"}}>
+                <p>
                     No.11, 1st Floor, Pyay Street, Yangon, Myanmar
                 </p>
                 <h3 className="mb-4" style={{color: "var(--primary-color)"}}>
                     +95 9422243666
                 </h3>
-                <p style={{color: "#ffeb3b"}}>Email: 6V0f1@example.com</p>
-                <p style={{color: "#ffeb3b"}}>www.winmotormyanmar.com</p>
+                <p>Email: 6V0f1@example.com</p>
+                <p>www.winmotormyanmar.com</p>
                 <div></div>
                 </div>
                 <div className="links text-white">
