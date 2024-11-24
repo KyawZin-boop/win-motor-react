@@ -31,28 +31,18 @@ export default function Footer() {
                     style={{
                     position: "relative",
                     overflow: "hidden",
-                    paddingTop: "56.25%",
                     height: 0,
                     maxWidth: "100%",
                     height: "auto",
                     }}
                 >
-                    <iframe
-                    src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d2700.367682605706!2d96.13298961277937!3d16.831484929141265!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2ssg!4v1731505753092!5m2!1sen!2ssg"
-                    width="600"
-                    height="450"
-                    style={{
-                        position: "absolute",
-                        top: 0,
-                        left: 0,
-                        width: "100%",
-                        height: "100%",
-                        border: 0,
-                    }}
-                    allowFullScreen=""
-                    loading="lazy"
-                    referrerPolicy="no-referrer-when-downgrade"
-                    >
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d954.7310342301797!2d96.1320378!3d16.8301192!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2smm!4v1732366205231!5m2!1sen!2smm" 
+                        width="600" 
+                        height="300" 
+                        style={{border:0}} 
+                        allowFullScreen="" 
+                        loading="lazy" 
+                        referrerPolicy="no-referrer-when-downgrade">
                     </iframe>
                 </div>
                 </div>

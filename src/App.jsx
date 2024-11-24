@@ -5,6 +5,7 @@ import CarDisplay from './CarDisplay'
 import Services from './Services'
 import Partner from './Partner'
 import Footer from './Footer'
+import Video from './VideoPlayer'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import 'bootstrap/dist/js/bootstrap.min.js'
 import '../fontawesome-free-6.6.0-web/css/all.min.css'
@@ -15,7 +16,8 @@ function App() {
   return (
     <>
       <Navbar />
-      <Slider />
+      {/* <Slider /> */}
+      <Video />
       <About />
       <CarDisplay />
       <Services />

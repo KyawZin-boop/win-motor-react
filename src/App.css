@@ -38,6 +38,13 @@ nav{
   color: var(--secondary-color);
 }
 
+/* video */
+.video video{
+  width: 100%;
+  height: 70vh;
+  object-fit: cover;
+}
+
 
 /* carousel slide */
 .carousel-item img{
@@ -195,6 +202,11 @@ nav{
       justify-content: center;
   }
 
+}
+@media screen and (max-width: 580px) {
+  .map div iframe{
+    width: 100%;
+  }
 }
 @media screen and (max-width: 425px) {
   .slide-text{
