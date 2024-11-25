@@ -1,5 +1,21 @@
+import gsap from "gsap";
 
 export default function Services() {
+
+    // gsap.registerPlugin(ScrollTrigger);
+
+    // gsap.from(".fade-in-section", {
+    // opacity: 0,
+    // y: 50,
+    // duration: 1,
+    // ease: "power2.out",
+    // scrollTrigger: {
+    //     trigger: ".fade-in-section",
+    //     start: "top 80%", // Trigger when the section reaches 80% of the viewport
+    //     toggleActions: "play none none reverse", // Play when in view, reverse when out
+    // },
+    // });
+
     return (
         <div className="services">
             <div className="container py-5">

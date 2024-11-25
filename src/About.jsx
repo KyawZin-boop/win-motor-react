@@ -1,10 +1,55 @@
+import React, { useEffect, useRef } from "react";
+import gsap from "gsap";
+import ScrollTrigger from "gsap/ScrollTrigger";
 
 export default function About() {
+
+    // const sectionRef = useRef(null);
+    gsap.registerPlugin(ScrollTrigger);
+    useEffect(() => {
+        let right = gsap.timeline({
+            scrollTrigger: {
+                trigger: ".slide-in-right",
+                start: "-40% center",
+                end: "44.7% 60%",
+                scrub: true,
+                // toggleActions: "play none none reverse",
+            },
+        });
+        right.from(".slide-in-right", {
+            x: -300,
+            opacity: 0
+        })
+        right.to(".slide-in-right", {
+            x: 0,
+            opacity: 1,
+            ease: "power2.out"
+        })
+        let left = gsap.timeline({
+            scrollTrigger: {
+                trigger: ".slide-in-left",
+                start: "-40% center",
+                end: "42.2% 60%",
+                scrub: true,
+                // toggleActions: "play none none reverse",
+            },
+        });
+        left.from(".slide-in-left", {
+            x: 300,
+            opacity: 0
+        })
+        left.to(".slide-in-left", {
+            x: 0,
+            opacity: 1,
+            ease: "power2.out"
+        })
+      }, []);
+
     return (
-        <div className="about py-5">
+        <div  className="about py-2">
             <div className="container">
                 <div className="row">
-                <div className="col-md-6">
+                <div className="col-md-6 slide-in-right">
                     <div className="about-text p-4">
                     <h1 className="mb-4 fw-bold" style={{color: "var(--primary-color)"}}>
                         Who We Are
@@ -37,7 +82,7 @@ export default function About() {
                     </p>
                     </div>
                 </div>
-                <div className="col-md-6 align-self-center">
+                <div className="col-md-6 align-self-center slide-in-left">
                     <div className="about-img">
                     <img
                         src="/aboutUs.jpg"

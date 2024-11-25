@@ -39,9 +39,17 @@ nav{
 }
 
 /* video */
+.video{
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* padding: 0 20px; */
+}
 .video video{
+  /* border-radius: 10px; */
   width: 100%;
-  height: 70vh;
+  height: 80vh;
   object-fit: cover;
 }
 
@@ -76,10 +84,15 @@ nav{
 /* about */
 .about{
   background-color: #F4F4F5;
+  background-color: #ecf2fe;
+  /* border-bottom: 1px solid rgba(255, 255, 255, 0.55); */
 }
 
 
 /* role car */
+.roleCar{
+  background-color: #F4F4F5;
+}
 .roleCarCards .card{
   max-width: 280px;
   box-sizing: border-box;
@@ -91,14 +104,14 @@ nav{
 }
 .roleCarCards .card .card-body{
   border-radius: 0 0 5px 5px;
-  background-color: #cceaf6;
+  background-color: #ecf2fe;
   color: var(--secondary-color);
 }
 
 
 /* content  */
 .content {
-  background-color: #6FC3C3;
+  background-color: #98dada;
 }
 .content .container h1{
   font-weight: bold;
@@ -144,9 +157,14 @@ nav{
 }
 
 
+.services{
+  background-color: #ecf2fe;
+}
+
+
 /* partner div  */
 .partner{
-  background-color: #F4F4F5;
+  background-color: #F5F5F7;
 }
 .partner h1{
   color: var(--text-color);
@@ -179,6 +197,11 @@ nav{
   width: 500px;
   height: 300px;
 }
+
+/* .fade-in-section {
+  opacity: 0;
+  transform: translateY(50px);
+} */
 
 
 @media screen and (max-width: 1024px) {

@@ -13,7 +13,7 @@ import '../fontawesome-free-6.6.0-web/css/all.min.css'
 import './App.css'
 
 function App() {
-
+  
   return (
     <>
       <Navbar />
