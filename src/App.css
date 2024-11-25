@@ -79,6 +79,23 @@ nav{
 }
 
 
+/* role car */
+.roleCarCards .card{
+  max-width: 280px;
+  box-sizing: border-box;
+}
+.roleCarCards .card img{
+  border-radius: 5px 5px 0 0;
+  min-height: 186px;
+  object-fit: cover;
+}
+.roleCarCards .card .card-body{
+  border-radius: 0 0 5px 5px;
+  background-color: #cceaf6;
+  color: var(--secondary-color);
+}
+
+
 /* content  */
 .content {
   background-color: #6FC3C3;

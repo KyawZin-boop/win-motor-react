@@ -6,6 +6,7 @@ import Services from './Services'
 import Partner from './Partner'
 import Footer from './Footer'
 import Video from './VideoPlayer'
+import RoleCar from './RoleCar'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import 'bootstrap/dist/js/bootstrap.min.js'
 import '../fontawesome-free-6.6.0-web/css/all.min.css'
@@ -19,6 +20,7 @@ function App() {
       {/* <Slider /> */}
       <Video />
       <About />
+      <RoleCar />
       <CarDisplay />
       <Services />
       <Partner />
