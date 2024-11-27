@@ -4,7 +4,7 @@ export default function Navbar() {
         <nav className="navbar navbar-expand-md sticky-top py-0">
         <div className="container">
             <a className="navbar-brand" href="#"
-            ><img className="logo" src="/Logo.jpg" alt="logo"
+            ><img className="logo" src="/public/Logo.jpg" alt="logo"
             /></a>
             <button
             className="navbar-toggler"
