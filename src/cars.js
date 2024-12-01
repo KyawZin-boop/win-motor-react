@@ -207,7 +207,7 @@ const cars = [
             {
                 name: "MERCEDES BENZ",
                 year: 2024,
-                image: "/volkswagenID7/view3.png",
+                image: "/volkswagenID7/view3.jpg",
                 price: "100,000",
                 color: "black",
             },
